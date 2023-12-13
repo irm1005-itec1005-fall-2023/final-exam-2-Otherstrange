@@ -75,7 +75,7 @@ body {
     margin:0 auto;
   }
 
- .header {
+ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,17 +83,19 @@ body {
   margin-top:1rem;
  }
 
- .header img {
+ header img {
   width: 50px;
   background-color:black;
   padding:.5rem;
   border-radius: 1rem;
  }
 
- .header a {
-  display:block;
+ header a {
+  display:flex;
   background-color: black;
   text-decoration: none;
+  justify-content:center;
+  text-align:center;
   color: white;
   font-size: 1rem;
   font-weight: bold;

@@ -60,73 +60,102 @@
         <h2>My Skills</h2>
 
         <ul class="skillslist">
-          <li>Web Development</li>
-          <li>UI/UX</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>GitHub</li>
+          <div class="webdevbox">
+            <li>Web Development</li>
+          </div>
+          <div class="otherskills">
+            <div class="otherskillstop">
+              <div class="uicssbox">
+                <div class="uibox">
+                  <li>UI/UX</li>
+                </div>
+                <div class="cssbox">
+                  <li>CSS</li>
+                </div>
+              </div>
+              <div class="jsbox">
+                <li>JavaScript</li>
+              </div>
+            </div>
+            <div class="otherskillsbottom">
+              <div class="htmlbox">
+                <li>HTML</li>
+              </div>
+              <div class="githubbox">
+                <li>GitHub</li>
+              </div>
+            </div>
+          </div>
+          <!-- Can you tell I barely use grid? -->
         </ul>
       </section>
 
       <section class="aboutcontainer">
         <h2>About me</h2>
 
-        <img src="images/about/about.jpg" alt="Picture of Amy's in business atire with a pink background" />
+        <div class="aboutimgcontainer">
+          <img src="images/about/about.jpg" alt="Picture of Amy's in business atire with a pink background" />
+        </div>
 
-        <p>Hey, I'm Amy. Are you ready to level up your web project?</p>
+        <div class="aboutparacontainer">
+          <p class="aboutfirstpara">Hey, I'm Amy. Are you ready to level up your web project?</p>
 
-        <p>I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
+          <p class="aboutsecondpara">I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
 
-        <a href=# class="contact-btn">Contact me</a>
+          <div class="aboutbtncontainer">
+            <a href=# class="contact-btn">Contact me</a>
+          </div>
+        </div>
       </section>
 
       <section class="workcontainer">
         <h2>My Work</h2>
+        
+        <div class="workitemstop">
+          <div class="workitem tutorial3">
+            <img src="images/work/work-1.png" alt="Screenshot of Tutorial Exercise 03" />
 
-        <div class="workitem">
-          <img src="images/work/work-1.png" alt="Screenshot of Tutorial Exercise 03" />
+            <h3>Tutorial Exercise 03</h3>
 
-          <h3>Tutorial Exercise 03</h3>
+            <p>HTML</p>
 
-          <p>HTML</p>
+            <p>CSS</p>
+          </div>
 
-          <p>CSS</p>
+          <div class="workitem tutorial5">
+            <img src="images/work/work-2.png" alt="Screenshot of Tutorial Exercise 05" />
+
+            <h3>Tutorial Exercise 05</h3>
+
+            <p>HTML</p>
+
+            <p>CSS</p>
+          </div>
         </div>
 
-        <div class="workitem">
-          <img src="images/work/work-2.png" alt="Screenshot of Tutorial Exercise 05" />
+        <div class="workitembottom">
+          <div class="workitem tutorial7">
+            <img src="images/work/work-3.png" alt="Screenshot of Tutorial Exercise 07" />
 
-          <h3>Tutorial Exercise 05</h3>
+            <h3>Tutorial Exercise 07</h3>
 
-          <p>HTML</p>
+            <p>HTML</p>
 
-          <p>CSS</p>
+            <p>CSS</p>
+          </div>
+
+          <div class="workitem tutorial9">
+            <img src="images/work/work-4.png" alt="Screenshot of Tutorial Exercise 09" />
+
+            <h3>Tutorial Exercise 09</h3>
+
+            <p>HTML</p>
+
+            <p>CSS</p>
+
+            <p>JavaScript</p>
+          </div>
         </div>
-
-        <div class="workitem">
-          <img src="images/work/work-3.png" alt="Screenshot of Tutorial Exercise 07" />
-
-          <h3>Tutorial Exercise 07</h3>
-
-          <p>HTML</p>
-
-          <p>CSS</p>
-        </div>
-
-        <div class="workitem">
-          <img src="images/work/work-4.png" alt="Screenshot of Tutorial Exercise 09" />
-
-          <h3>Tutorial Exercise 09</h3>
-
-          <p>HTML</p>
-
-          <p>CSS</p>
-
-          <p>JavaScript</p>
-        </div>
-
-        <a href=# class="contact-btn">Book a call with me</a>
       </section>
 
       <section class="contactcontainer">

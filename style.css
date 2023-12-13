@@ -138,7 +138,229 @@ body {
     display:none;
   }
 
-  li.skillslist {
+  .skillslist {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:200px;
+  }
+
+  .webdevbox {
+    display:flex;
+    background-color:#cdb4db;
+    padding:1rem;
+    border-radius:1rem;
+    width:200px;
+    font-weight:bold;
+    margin:.3rem .3rem .3rem 0rem;
+  }
+
+  .webdevbox li {
+    margin-top:80%
+  }
+
+  .otherskills {
+    display:flex;
+    flex-direction:column;
+  }
+
+  .otherskillstop {
+    display:flex;
+  }
+
+  .otherskillsbottom {
+    display:flex;
+  }
+
+  .uicssbox {
+    display:flex;
+    height:100px;
+  }
+
+  .uibox {
+    display:flex;
+    background-color:#ffc8dd;
+    padding:1rem;
+    border-radius:1rem;
+    width:100px;
+    height:90px;
+    font-weight:bold;
+    margin:.3rem;
+  }
+
+  .uibox li {
+    margin-top:60%;
+  }
+
+  .cssbox {
+    display:flex;
+    background-color:#ffafcc;
+    padding:1rem;
+    border-radius:1rem;
+    width:100px;
+    height:90px;
+    font-weight:bold;
+    margin:.3rem
+  }
+
+  .cssbox li {
+    margin-top:60%;
+  }
+
+  .jsbox {
+    display:flex;
+    background-color:#bde0fe;
+    padding:1rem;
+    border-radius:1rem;
+    width:200px;
+    font-weight:bold;
+    height:90px;
+    margin:.3rem 0rem .3rem .3rem;
+  }
+
+  .jsbox li {
+    margin-top:25%;
+  }
+
+  .htmlbox {
+    display:flex;
+    background-color:#a2d2ff;
+    padding:1rem;
+    border-radius:1rem;
+    width:210px;
+    font-weight:bold;
+    height:90px;
+    margin:.3rem;
+  }
+
+  .htmlbox li {
+    margin-top:20%
+  }
+
+  .githubbox {
+    display:flex;
+    background-color:#cdb4db;
+    padding:1rem;
+    border-radius:1rem;
+    width:200px;
+    font-weight:bold;
+    height:90px;
+    margin:.3rem 0rem .3rem .3rem;
+  }
+
+  .githubbox li {
+    margin-top:20%;
+  }
+
+  ul.skillslist {
     list-style-type: none;
+    padding:0rem;
+    margin:0rem;
     margin-bottom: 1rem;
+
+  }
+
+  .aboutcontainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .aboutcontainer h2 {
+    display:none;
+  }
+
+  .aboutimgcontainer img {
+    height: 500px;
+    width: 100rem;
+
+    object-fit:cover;
+    object-position: center;
+
+    border-radius: 1rem;
+
+    margin-right:1rem;
+  }
+
+  .aboutparacontainer {
+    display:flex;
+    flex-direction: column;
+    margin-left:1rem;
+  }
+
+  .aboutfirstpara {
+    font-size:1.4rem;
+    font-weight:bold;
+    margin-bottom:1rem;
+  }
+
+  .aboutbtncontainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .aboutparacontainer a {
+    display:flex;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding:.8rem 1.6rem .8rem 1.6rem;
+    border-radius:1rem;
+    background-color: #ffafcc;
+    color:black;
+    margin-top:1rem;
+  }
+
+  .workcontainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+  }
+
+  .workcontainer h2 {
+    font-weight:bold;
+    font-size:1.7rem;
+    margin-bottom:3rem;
+  }
+
+  .workitemstop {
+    display:flex;
+    flex-direction:row;
+    gap:1rem;
+    margin-bottom:3rem;
+  }
+
+  .workitembottom {
+    display:flex;
+    flex-direction:row;
+    gap:1rem;
+  }
+
+  .workitem img {
+    height: 400px;
+    width: 500px;
+
+    object-fit:cover;
+    object-position:top;
+
+    border-radius: 1rem;
+    border: 3px solid black;
+  }
+
+  .tutorial5 {
+    object-position:top;
+  }
+
+  .contactcontainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
   }

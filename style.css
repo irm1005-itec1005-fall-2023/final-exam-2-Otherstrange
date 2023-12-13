@@ -114,7 +114,7 @@ body {
  }
 
  .titletext {
-  font-size:2rem;
+  font-size:2.5rem;
   font-weight: bold;
   text-align: center;
   color:black;
@@ -124,6 +124,7 @@ body {
  .titlesubtext {
   color:grey;
   font-size: .8rem;
+  text-align:center;
  }
 
  .skillscontainer {
@@ -257,7 +258,6 @@ body {
     padding:0rem;
     margin:0rem;
     margin-bottom: 1rem;
-
   }
 
   .aboutcontainer {
@@ -353,14 +353,264 @@ body {
     border: 3px solid black;
   }
 
-  .tutorial5 {
-    object-position:top;
+  .workitem h3 {
+    font-size:1.2rem;
+    font-weight:bold;
+    margin-top:1rem;
+  }
+
+  .workitemcategorylabels {
+    display:flex;
+    gap:.3rem;
+  }
+
+  .workcontainer p {
+    display:flex;
+    text-decoration: none;
+    color: black;
+    font-size: .7rem;
+    font-weight: bold;
+    padding:.3rem .5rem .3rem .5rem;
+    border-radius:1rem;
+    background-color: #ffafcc;
+    color:black;
   }
 
   .contactcontainer {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin-top: 8rem;
+    background-color:#cdb4db;
+    padding:2rem;
+    border-radius:1rem;
+    margin-bottom:10rem;
   }
+
+  .contactcontainer h2 {
+    display:none;
+  }
+
+  .contactconttitletext {
+    font-size:2rem;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 1rem;
+  }
+
+  .contact-btn {
+    display:flex;
+    text-decoration: none;
+    justify-content:center;
+    color: white;
+    padding:1rem;
+    margin-top:1rem;
+    font-weight: bold;
+    border-radius:1rem;
+    background-color: black;
+    width:140px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.0rem 0;
+    margin-top:1rem;
+    border-top:1px solid black;
+   }
+  
+   footer img {
+    width: 50px;
+    border-radius: 1rem;
+   }
+
+   @media screen and (max-width: 700px) {
+
+    body {
+      display:flex;
+      flex-direction: column;
+      width:95%;
+      margin:0 auto;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+  .skillscontainer,
+  .skillslist,
+  .webdevbox,
+  .webdevbox li,
+  .otherskills,
+  .otherskillstop,
+  .otherskillsbottom,
+  .uicssbox,
+  .uibox,
+  .uibox li,
+  .cssbox,
+  .cssbox li,
+  .jsbox,
+  .jsbox li,
+  .htmlbox,
+  .htmlbox li,
+  .githubbox,
+  .githubbox li {
+    all: initial;
+  }
+
+  .herocontainer {
+    margin-bottom:8rem;
+  }
+
+  .skillslist {
+    display:flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .skillslist li {
+      font-weight: bold;
+      margin-bottom: 1rem;
+      margin-left: 0;
+      font-family:Arial;
+    }
+
+  .otherskills {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+  }
+
+  ul.otherskills {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul.skillslist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .otherskillstop {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+  }
+
+  .otherskillsbottom {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+  }
+
+  .uicssbox {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+  }
+
+  .webdevbox {
+    background-color:#cdb4db;
+    margin:.3rem;
+    padding:1rem;
+    width:95%;
+    border-radius:1rem;
+  }
+
+  .uibox {
+    background-color:#ffc8dd;
+    margin:.3rem;
+    padding:1rem;
+    width:95%;
+    border-radius:1rem;
+  }
+
+  .cssbox {
+    background-color:#ffafcc;
+    margin:.3rem;
+    padding:1rem;
+    width:95%;
+    border-radius:1rem;
+  }
+
+  .jsbox {
+    background-color:#bde0fe;
+    margin:.3rem;
+    padding:1rem;
+    width:95%;
+    border-radius:1rem;
+  }
+
+  .htmlbox {
+    background-color:#a2d2ff;
+    margin:.3rem;
+    padding:1rem;
+    width:95%;
+    border-radius:1rem;
+  }
+
+  .githubbox {
+    background-color:#cdb4db;
+    margin:.3rem;
+    padding:1rem;
+    width:95%;
+    border-radius:1rem;
+  }
+
+  .aboutcontainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .aboutimgcontainer {
+    margin-bottom:2rem;
+  }
+
+  .aboutimgcontainer img {
+    border-radius:2rem;
+  }
+
+  .aboutfirstpara {
+    font-size:1.8rem;
+    font-weight:bold;
+    margin-bottom:1rem;
+  }
+
+  .aboutsecondpara {
+    margin-bottom:1rem;
+  }
+
+  .aboutparacontainer a {
+    margin-top:.3rem;
+  }
+
+  .workitemstop {
+    display:flex;
+    flex-direction:column;
+    margin-bottom:1rem;
+  }
+
+  .workitembottom {
+    display:flex;
+    flex-direction:column;
+  }
+
+  .tutorial3 {
+    margin-bottom:1.5rem;
+  }
+
+  .tutorial5 {
+    margin-bottom:1.5rem;
+  }
+
+  .tutorial9 {
+    margin-bottom:1.5rem;
+  }
+
+  .tutorial7 {
+    margin-bottom:1.5rem;
+  }
+}
